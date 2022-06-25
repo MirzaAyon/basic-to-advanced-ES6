@@ -10,3 +10,14 @@ console.log(result);
 const tenTimes = (num) => num * 10;
 const output = tenTimes(17);
 console.log(output);
+
+//ekta pm hole braket na dileo cholbe
+const fiveTimes = num => num * 5;
+const value = fiveTimes(17);
+console.log(value);
+
+//kono pm na thakle
+//pm na thakleo braket thakbe
+const getName = () => 'Brandon Sam';
+const name = getName()
+console.log(name);
