@@ -31,3 +31,12 @@ const numberCount = numbers.length; //array er modhe koeta upadan ache jante par
 numbers.pop(); //last er ta ber kore dewa
 numbers.push(111); //last e ekta add kora
 numbers[2] = 555; //specific position er element change kora jonno
+
+
+// check whether 222 included in the array
+if (numbers.indexOf(222) != -1) {
+
+}
+if (numbers.includes(222)) {
+
+}
