@@ -47,3 +47,10 @@ if (numbers.includes(222)) {
 for (const number of numbers) {
 
 }
+
+
+// function
+function fullName(first, second) {
+    const name = first + ' ' + second;
+}
+const person = fullName('Rahim', 'Ali');
