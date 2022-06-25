@@ -52,5 +52,11 @@ for (const number of numbers) {
 // function
 function fullName(first, second) {
     const name = first + ' ' + second;
+    return name;
 }
 const person = fullName('Rahim', 'Ali');
+console.log(person);
+
+
+//object
+const bottle = { color: 'yellow', contain: 'water', price: 50 }
