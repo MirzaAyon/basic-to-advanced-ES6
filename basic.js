@@ -40,3 +40,10 @@ if (numbers.indexOf(222) != -1) {
 if (numbers.includes(222)) {
 
 }
+
+
+// loop
+// while, for
+for (const number of numbers) {
+
+}
