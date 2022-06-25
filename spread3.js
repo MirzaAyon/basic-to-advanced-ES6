@@ -35,5 +35,13 @@ console.log(numbers3);
 
 
 const numbers4 = [...numbers];
-numbers.push(5600);
+// numbers.push(5600);
 console.log(numbers4);
+// console.log(numbers); //ekhane 5600 thakbe
+
+//numbers4 ekhane r reference nai shey notun ekta array create korse and uporer element gula ekhane ene boshae dise
+
+const numbers5 = [22, ...numbers, 88];
+numbers.push(5600);
+console.log(numbers5);
+console.log(numbers);
